@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    font-family:'Merriweather Sans';
+  }
+
+/* Header */
+
+header{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #2963af;
+    display: block;
+  }
+
+.headerImg{
+    border: 5px solid rgb(29, 29, 29);
+    border-radius: 50%;
+    padding-top: -25px;
+    width: 8rem;
+    height: 8rem;
+    margin: 0.5rem;
+  }
+
+.headerH1{
+    font-family:'Merriweather Sans';
+    display: inline;
+}
+
+.headerAddress{
+    padding: 10px;
+    font-family:'Merriweather Sans';
+}
+
+/* section */
+
+.section1{
+  
+    width: 350px;
+    margin: 10px;
+}
+
+/* sobre */
+
+.Sobre{
+    background-color: #2963af;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Merriweather Sans';
+    padding-left:5%;
+}
+
+.sobre,a{
+  transition:  0.8s;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.sobre,a:hover{
+  background-color: #949494a6;
+  padding: 5px;
+}
+
+/* Tecnologias */
+
+.Tecnologias{
+    margin-top: 10px;
+    background-color: #2963af;
+    padding: 10px;
+    border-radius: 25px;
+    font-family: 'Merriweather Sans';
+    padding-left:5%;
+}
+
+/* Experiências */
+
+.Experiencias{
+  margin-top: 10px;
+  background-color: #2963af;
+  padding: 10px;
+  border-radius: 25px;
+  font-family: 'Merriweather Sans';
+  padding-left:5%;
+}
+
+.Educacao{
+  margin-top: 10px;
+  background-color: #2963af;
+  padding: 10px;
+  border-radius: 25px;
+  font-family: 'Merriweather Sans';
+  padding-left:5%;
+}
+
+/* main */
+
+main{
+  position: absolute;
+  top: 13.4rem;
+  left: 22.5rem;
+  background-color: #2963af;
+  max-width: 79%;
+  max-height: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 15px;    
+}
